@@ -1,0 +1,10 @@
+adminUser:
+  password: local:my_cluster/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: vishal.poptani@citiustech.com
+  token: local:my_cluster/pipelineUser:token
+  username: vpoptani
+prow:
+  hmacToken: local:my_cluster/prow:hmacToken
